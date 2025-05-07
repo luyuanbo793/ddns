@@ -22,7 +22,7 @@ COPY --from=builder /app/youddns /usr/local/bin/youddns
 # 设置默认环境变量
 ENV DOMAIN="test.luqh.dpdns.org" \
     TOKEN="fbdd26343facbf9ac81538c32328e721" \
-    API_URL="https://dns.cngames.site/ddnsapi.php"
+    API_URL="https://dns.luyb.dpdns.org/ddnsapi.php"
 
 # 启动命令
 CMD ["youddns"]
